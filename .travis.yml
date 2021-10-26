@@ -6,3 +6,9 @@ before_install:
 script: "./mvnw clean install"
 notifications:
   email: jmayta17@hotmail.com
+deploy:
+  app: upc-202102-ws61-sale-system
+  provider: heroku
+  api_key:
+    secure: 977a9848-b414-4571-ab5a-9f60781d982b
+  
